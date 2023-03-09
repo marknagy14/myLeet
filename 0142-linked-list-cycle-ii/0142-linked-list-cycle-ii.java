@@ -34,3 +34,12 @@ public class Solution {
         return null;
     }
 }
+
+
+
+
+/*
+
+you can refer to floyd's algorithm to this video https://www.bing.com/videos/search?q=floyd%27s+cycle+detection+algorithm&&view=detail&mid=F1B59E8079C7AE75197CF1B59E8079C7AE75197C&&FORM=VRDGAR
+
+*/
