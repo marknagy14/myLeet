@@ -24,8 +24,8 @@
  * }
  */
 class Solution {
-    public TreeNode sortedListToBST(ListNode head) {
-        if(head==null)
+    public TreeNode sortedListToBST(ListNode head) { //recursive
+        if(head==null) //base condition
             return null;
         if(head.next==null)
             return new TreeNode(head.val);
