@@ -48,6 +48,9 @@ class Solution {
 /*
 using floyd cycle's method, we use two pointers one is fast (hare) one is slow(turtoise)
 we make fast run two steps and slow run 1 step
-until we reach end of list, turtoise will point to the element just before the root of the tree(mid elemenet) because we need the tree to be balanced, now we dont need the fast pointer, using recursion we pass the the function the left subtree after separating it by making slow.next=null and then passing the right subtree, we also set returns of the two previous functions to root left and right children respectively.
+until we reach end of list, turtoise will point to the element just before the root of the tree(mid elemenet) 
+because we need the tree to be balanced, now we dont need the fast pointer, 
+using recursion we pass the the function the left subtree after separating it by making slow.next=null and then passing the right subtree,
+we also set returns of the two previous functions to root left and right children respectively.
 
 */
