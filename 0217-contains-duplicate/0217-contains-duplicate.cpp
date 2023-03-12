@@ -14,3 +14,11 @@ public:
 
 }
 };
+
+/* knowing that inserting elements in a set
+removes the dupilcates, so
+-insert elements of vector in a set
+-compare size of vector to size of set
+-if they are equal return false(no dupicates)
+-return true
+*/
